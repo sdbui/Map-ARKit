@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7e7d2bd883b14aef806cdb050413709, type: 3}
+  m_Name: CrimeRateTextureModifier
+  m_EditorClassIdentifier: 
+  Active: 1
+  _materialRanges:
+  - min: -1e+11
+    max: 2.1
+    topMaterial: {fileID: 2100000, guid: 6f95c2a2ea3524d0588c1c9a3ad6c749, type: 2}
+    sideMaterial: {fileID: 2100000, guid: e3282d72e2b6a4f2c95a228366f72579, type: 2}
+  - min: 2.1
+    max: 4.1
+    topMaterial: {fileID: 2100000, guid: 0eee0588e93dd4bd690a1d9c1e4a8450, type: 2}
+    sideMaterial: {fileID: 2100000, guid: a6ce4ffe98d7e4d43bc9da43fb1633e3, type: 2}
+  - min: 4.1
+    max: 6.1
+    topMaterial: {fileID: 2100000, guid: a362902f296624d969087e1f3064ad6d, type: 2}
+    sideMaterial: {fileID: 2100000, guid: 35ae3182a6fc142bab912247c21243a3, type: 2}
+  - min: 6.1
+    max: 8.1
+    topMaterial: {fileID: 2100000, guid: 7ae29582adc65463fbabb52ff3c4e967, type: 2}
+    sideMaterial: {fileID: 2100000, guid: 4c9797abcf00049edaba1e854879cd2c, type: 2}
